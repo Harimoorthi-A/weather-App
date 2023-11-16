@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+.row{
+    background-color: #D2E0FB;
+}
+.firstRow{
+    border-radius: 20px;
+}
+.secondRow,.thirdRow,.thirdSubRow{
+    border-radius: 20px;
+    /* height: fit-content; */
+}
+/* .outputDisplay{
+    display: none;
+} */
+button:hover{
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+.secondRow:hover{
+    transition: ease-in-out;
+    transform: scale(1.1);
+}
+h4,h1{
+    font-family: 'Dancing Script', cursive;
+}
+
+@media screen and (max-width: 501px) {
+
+}
